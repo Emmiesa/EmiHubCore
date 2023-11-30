@@ -1,0 +1,33 @@
+menus: #These usually do not require a reload. It should update once you save this file and re-open the menu.
+  server_selector:
+    title: "&aServer Selector"
+    size: 45 #(9 = 1 ; 18 = 2 ; 27 = 3 ; 36 = 4 ; 45 = 5 ; 54 = 6 ; ect...)
+    servers:
+      practice:
+        slot: 21
+        material: DIAMOND_SWORD
+        data: 0
+        name: "&f&lPractice &a&lUPDATED!"
+        lore:
+          - "&7&o1v1s, Parties, Events"
+          - "&7&o15+ Games & Duels"
+          - " "
+          - "&fPlayers: §a0"
+          - " "
+          - "&fClick to view!"
+        command: "practicequeue"
+        enabled: true
+      minigames:
+        slot: 23
+        material: REDSTONE
+        data: 0
+        name: "&f&lMinigames"
+        lore:
+          - "&7Variety of gamemodes"
+          - " "
+          - "&fPlayers: §a0"
+          - " "
+          - "&fClick to view!"
+        command: "minigamesqueue"
+        enabled: true
+#You can add as MANY items as you want. Just follow the structure and make sure to not make any mistakes. Else your menu won't work... :(

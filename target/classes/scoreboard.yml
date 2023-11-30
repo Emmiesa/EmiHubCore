@@ -1,0 +1,39 @@
+scoreboard: #Configuration for your beautiful sidebar/scoreboard :)
+  title: "&a&lHUB &7&o(BETA)"
+  animated: true
+  ticks: 20
+  animation:
+    - "&f&lHUB &7&o(BETA)"
+    - "&a&l&f&lHUB &7&o(BETA)"
+    - "&a&lH&f&lUB &7&o(BETA)"
+    - "&a&lHU&f&lB &7&o(BETA)"
+    - "&a&lHUB &7&o(BETA)"
+    - "&a&lHU&f&lB &7&o(BETA)"
+    - "&a&lH&f&lUB &7&o(BETA)"
+    - "&f&lHUB &7&o(BETA)"
+  footer:
+    text: "&aserver.net"
+    animated: true
+    ticks: 20
+    animation:
+      - "&aserver.net"
+      - "&aserver.net"
+      - "&aserver.net"
+      - "&adiscord.server.net"
+      - "&adiscord.server.net"
+      - "&adiscord.server.net"
+      - "&astore.server.net"
+      - "&astore.server.net"
+      - "&astore.server.net"
+  bars:
+    bars-format: "&7&m--------------------"
+  lines:
+    - "%bars%"
+    - "&f&lRank:"
+    - " &aDefault"
+    - " "
+    - "&f&lPlayers:"
+    - " &a%online_players%"
+    - " "
+    - "%footer%"
+    - "%bars%"
