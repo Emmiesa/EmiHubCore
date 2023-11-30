@@ -1,0 +1,40 @@
+name: EmiHubCore-Lite
+version: '${project.version}'
+main: me.emmiesa.hub.HubCore
+authors: [Emmiesa]
+description: '${project.description}'
+website: https://dsc.gg/emmiesa
+depends:  [PlaceholderAPI]
+loadbefore:
+  - AquaCore
+  - Core
+  - SharkHub
+  - DeluxeHub
+commands:
+  emihubcore-lite:
+    description: View information about this plugin.
+  website:
+    description: View the website link.
+  discord:
+    description: View the discord link.
+  store:
+    description: View the store link.
+    aliases: buy
+  tiktok:
+    description: View the tiktok link.
+  twitter:
+    description: View the twitter link.
+  youtube:
+    description: View the youtube link.
+  ping:
+    description: Get yours or a players ping
+  serverselector:
+    description: Open the server selector.
+    permission: hubcore.admin
+  setspawn:
+    description: Set the join location.
+    usage: /setspawn
+    permission: hubcore.admin
+  info:
+    description: View server information.
+    aliases: serverinfo

@@ -1,0 +1,39 @@
+scoreboard: #Configuration for your beautiful sidebar/scoreboard :)
+  title: "&a&lHUB &7&o(LITE)"
+  animated: true
+  ticks: 20
+  animation:
+    - "&f&lHUB &7&o(LITE)"
+    - "&a&l&f&lHUB &7&o(LITE)"
+    - "&a&lH&f&lUB &7&o(LITE)"
+    - "&a&lHU&f&lB &7&o(LITE)"
+    - "&a&lHUB &7&o(LITE)"
+    - "&a&lHU&f&lB &7&o(LITE)"
+    - "&a&lH&f&lUB &7&o(LITE)"
+    - "&f&lHUB &7&o(LITE)"
+  footer:
+    text: "&aemihubcore-lite"
+    animated: false
+    ticks: 20
+    animation:
+      - "&aserver.net"
+      - "&aserver.net"
+      - "&aserver.net"
+      - "&adiscord.server.net"
+      - "&adiscord.server.net"
+      - "&adiscord.server.net"
+      - "&astore.server.net"
+      - "&astore.server.net"
+      - "&astore.server.net"
+  bars:
+    bars-format: "&7&m--------------------"
+  lines:
+    - "%bars%"
+    - "&f&lRank:"
+    - " &aDefault"
+    - " "
+    - "&f&lPlayers:"
+    - " &a%online_players%"
+    - " "
+    - "%footer%"
+    - "%bars%"
