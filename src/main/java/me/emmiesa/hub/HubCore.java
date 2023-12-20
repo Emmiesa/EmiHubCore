@@ -73,7 +73,7 @@ public class HubCore extends JavaPlugin {
 
 		Assemble assemble = new Assemble(this, new ScoreboardLayout());
 		assemble.setAssembleStyle(AssembleStyle.MODERN);
-		assemble.setTicks(20);
+		assemble.setTicks(2);
 
 		if(!me.emmiesa.hub.HubCore.get().getDescription().getAuthors().contains("Emmiesa")) {
 			getLogger().info(" ");
