@@ -20,6 +20,7 @@
     <url>https://dsg.gg/emmiesa</url>
 
     <build>
+         <finalName>EmiHubCore-Lite-${project.version}</finalName>
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
