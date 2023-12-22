@@ -80,7 +80,6 @@ public class HubCore extends JavaPlugin {
 			getLogger().info(" ");
 			getLogger().info(" ");
 			getLogger().info(" ");
-			getLogger().info("Who is trying to fake on my plugin?");
 			getLogger().info("Why did you change the author name?");
 			getLogger().info("How dare you?");
 			getLogger().info("");
@@ -97,7 +96,6 @@ public class HubCore extends JavaPlugin {
 			getLogger().info(" ");
 			getLogger().info(" ");
 			getLogger().info(" ");
-			getLogger().info("Who is trying to fake on my plugin?");
 			getLogger().info("Why did you change the plugin name?");
 			getLogger().info("How dare you?");
 			getLogger().info("");
